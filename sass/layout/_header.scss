@@ -1,0 +1,43 @@
+.site-header {
+    height: 60rem;
+    background-image: linear-gradient(
+        to bottom,
+        rgba($color-black, 0.9),
+        rgba($color-green, 0.8)),
+    url(../../img/hero.jpg);
+    background-size: cover;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-topwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .logo-box {
+        margin: 3rem;
+        &__image {
+            height: 10rem;
+            width: 10rem;
+        }
+    }
+}
+
+.headline-wrapper {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.headline {
+    width: 40vw;
+    .heading-primary {
+        margin-bottom: 3rem;
+    }
+    .paragraph {
+        margin-bottom: 3rem;
+    }
+}
