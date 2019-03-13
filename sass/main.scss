@@ -5,7 +5,13 @@
 @import "base/base";
 @import "base/typography";
 
+@import "components/about";
+@import "components/article";
+@import "components/form";
+@import "components/gallery";
+
 @import "layout/footer";
+@import "layout/news";
 @import "layout/header";
 @import "layout/navigation";
 
