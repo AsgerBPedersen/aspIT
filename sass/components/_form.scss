@@ -1,0 +1,25 @@
+.input-form {
+    background-color: $color-darkgreen;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    text-align: left;
+
+    &__input {
+        height: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .heading-secondary {
+        color: $color-lightgray;
+        margin: 3rem 0;
+    }
+    .heading-tertiary {
+        color: $color-lightgray;
+        margin: 3rem 0;
+    }
+    .paragraph {
+        color: $color-lightgray;
+        margin-bottom: 3rem;
+    }
+}
