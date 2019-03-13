@@ -1,0 +1,114 @@
+.section-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    h2 {
+        margin: 5rem 0;
+    }
+
+    .about-wrapper {
+        display: flex;
+        padding: 0 1rem;
+    }
+}
+
+.section-blurb {
+    display: flex;
+    justify-content: center;
+    background-color: $color-darkgreen;
+    .blurb {
+
+        display: flex;
+    justify-content: center;
+    align-items: center;
+        
+        margin: 5rem 0;
+        &__image-wrapper {
+            border-radius: 50%;
+            overflow: hidden;
+            width: 15rem;
+            height: 15rem;
+        }
+
+        &__image {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+        &__text-wrapper {
+            display: flex;
+            flex-direction: column;
+            width: 50vw;
+            padding: 2rem;
+            text-align: right;
+
+            .paragraph {
+                color: $color-lightgray;
+                line-height: 2rem;
+                &:not(:last-child) {
+                    margin-bottom: 2rem;
+                }
+                &--gray {
+                    color: $color-gray;
+                }
+            }
+        }
+
+    }
+}
+
+.section-news {
+    text-align: center;
+    padding: 1rem;
+    h2 {
+        margin: 4rem;
+    }
+    .socials {
+        display: flex;
+        align-items: center;
+        padding: 0 3rem;
+        .social-link {
+            margin: 0 1rem;
+            display: block;
+            height: 5rem;
+            width: 5rem;
+            img {
+                height: 100%;
+                width: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+}
+
+.section-contact {
+    margin-top: 5rem;
+    display: flex;
+    .contact-image {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .input-form {
+        width: 45rem;
+    }
+}
+
+.section-gallery {
+   margin: 5rem 0; 
+}
+
+@media (max-width: 900px) {
+    .section-contact {
+        flex-direction: column;
+        .input-form {
+            width: 100%;
+        }
+    }
+}
+
