@@ -1,0 +1,25 @@
+.news-article {
+    border: 1px solid lightgrey;
+        background-color: white;
+        &__image {
+            height: 40rem;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        &--small {
+            border: 1px solid lightgrey;
+            background-color: white;
+            .heading-tertiary--green {
+                margin: 1rem;
+            }
+            &__image {
+                height: 25rem;
+                width: 100%;
+                object-fit: cover;
+            }
+        }
+        .heading-tertiary--green {
+            margin: 1.5rem;
+        }
+}
