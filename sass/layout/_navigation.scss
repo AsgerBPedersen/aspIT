@@ -1,0 +1,19 @@
+.navigation {
+    margin: 3rem;
+    &__list {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    &__item {
+        margin: 2rem;
+    }
+
+    &__link {
+        font-size: 1.4rem;
+        text-decoration: none;
+        color: $color-lightgray;
+    }
+}
