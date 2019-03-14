@@ -56,11 +56,13 @@
             margin-top: .1rem;
             transform: translateY(1rem);
             transition: all .3s;
+            visibility: hidden;
         }
 
         &:hover,
         &:focus {
             &::after {
+                visibility: visible;
                 opacity: 1;
                 transform: translateY(0);
             }
