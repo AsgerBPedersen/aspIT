@@ -105,3 +105,10 @@ grid-gap: 1rem 1rem;
     } 
 }
 }
+
+@media (max-width: 500px) {
+   .gallery {
+   display: flex;
+   flex-direction: column;
+}
+}
