@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
     
+    <!-- scrollreveal needs to be in the <head> to prevent flickering -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
     <title>AspIT</title>
 </head>
 <body>
@@ -38,7 +41,7 @@
                                     <h3 class="heading-tertiary--green">Afklaring</h3>
                                     <p class="paragraph">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est minima officiis, beatae, eligendi molestias accusantium harum vero, voluptatum ea ab provident amet consequuntur? Similique dignissimos quam non modi vel in.</p>
                                     <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste culpa voluptate ab possimus sapiente natus necessitatibus facere modi pariatur dolorem!</p>
-                                    <a href="" class="about__link">se mere</a>
+                                    <a href="" class="about__link">se mere >></a>
                             </div>
                         </article>
                         <article class="about">
@@ -46,7 +49,7 @@
                             <div class="about__text-wrapper"><h3 class="heading-tertiary--green">Uddannelsen</h3>
                                 <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores cum laudantium magnam natus delectus corrupti illo est saepe? Similique saepe, sequi nemo quisquam aliquam culpa deserunt mollitia ipsam nesciunt ipsa?</p>
                                 <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam, laborum.</p>
-                                <a href="" class="about__link">se mere</a></div>
+                                <a href="" class="about__link">se mere >></a></div>
                         </article>
                         <article class="about">
                             <div class="about__image-wrapper"><img src="./img/arbejde.jpg" alt="en mand arbejder ved en computer" class="about__image"></div>
@@ -54,7 +57,7 @@
                                     <h3 class="heading-tertiary--green">Praktik</h3>
                                     <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis aut aliquam amet, velit vel distinctio!</p>
                                     <p class="paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex necessitatibus vel placeat nam, cupiditate cum nulla magnam. Qui, aliquid labore minus praesentium quibusdam reiciendis, ipsa voluptates earum eius illum eaque!</p>
-                                    <a href="" class="about__link">se mere</a>
+                                    <a href="" class="about__link">se mere >></a>
                             </div>
                         </article>
             </div>
@@ -140,5 +143,8 @@
             copyright 2019 - ligebanan
         </p>
     </footer>
+    <script>
+        ScrollReveal().reveal('.gallery__container', { delay: 200, distance: '50px', reset: true });
+    </script>
 </body>
 </html>
