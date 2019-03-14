@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <title>AspIT</title>
 </head>
 <body>
@@ -15,15 +16,15 @@
                 <li class="navigation__item"><a href="" class="navigation__link">Om AspIT</a></li>
                 <li class="navigation__item"><a href="" class="navigation__link">Nyheder</a></li>
                 <li class="navigation__item"><a href="" class="navigation__link">Kontakt</a></li>
-                <li class="navigation__item">&#x1f50d;</li>
             </ul>
+            <input placeholder="søg" class="navigation__search" type="text">
         </nav>
     </div>
         <div class="headline-wrapper">
             <div class="headline">
                 <h1 class="heading-primary">AspIT / Fokuseret talent til erhverslivet</h1>
                 <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt nostrum voluptatem, quidem et fugit alias cum delectus commodi quibusdam aspernatur rerum recusandae inventore itaque error illo qui minus rem sunt.</p>
-                <button class="button--green">Kontakt os</button>
+                <div><a href="#kontakt">Kontakt os</a></div>
             </div>
         </div>
     </header>
@@ -93,8 +94,8 @@
                 <div class="input-form">
                     <h3 class="heading-tertiary">Tilmeld nyhedsbrev</h3>
                     <p class="paragraph">Få nyheder fra AspIT direkte i din indbakke</p>
-                    <input placeholder="  Navn" class="input-form__input" type="text">
-                    <input placeholder="  Email" class="input-form__input" type="text">
+                    <input placeholder="Navn" class="input-form__input" type="text">
+                    <input placeholder="Email" class="input-form__input" type="text">
                     <button class="button--green">tilmeld</button>
                 </div>
                 <div class="socials">
@@ -107,12 +108,13 @@
             </div>
         </section>
         <section class="section-contact">
+            <a name="kontakt" href=""></a>
                 <div class="input-form">
                         <h2 class="heading-secondary">Kontakt AspIT</h2>
                         <p class="paragraph">Vælg en afdeling og send os en besked</p>
-                        <input placeholder="  Navn" class="input-form__input" type="text">
-                        <input placeholder="  Email" class="input-form__input" type="text">
-                        <textarea placeholder="" rows="8" cols="50"></textarea>
+                        <input placeholder="Navn" class="input-form__input" type="text">
+                        <input placeholder="Email" class="input-form__input" type="text">
+                        <textarea class="input-form__message" placeholder="Besked" rows="8" cols="50"></textarea>
                         <button class="button--green">tilmeld</button>
                     </div>
             <div class="contact-image">

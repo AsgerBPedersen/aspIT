@@ -5,7 +5,15 @@
     padding: 2rem;
     text-align: left;
 
+    &__message {
+        resize: none;
+        padding: 1rem;
+        font-family: 'Open Sans', sans-serif;
+    }
+
     &__input {
+        padding: 1rem;
+        font-family: 'Open Sans', sans-serif;
         height: 4rem;
         margin-bottom: 4rem;
     }
