@@ -14,14 +14,22 @@
 <body>
     <header class="site-header">
         <div class="header-topwrapper"><div class="logo-box"><img src="./img/logo.png" alt="aspits logo" class="logo-box__image"></div>
-        <nav class="navigation">
+        <div class="navigation">
+                <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+    
+                <label for="navi-toggle" class="navigation__button">
+                    <span class="navigation__icon">&nbsp;</span>
+                </label>
+                <div class="navigation__background">&nbsp;</div>
+        <nav class="navigation__nav">
             <ul class="navigation__list">
                 <li class="navigation__item"><a href="#" class="navigation__link">Om AspIT</a></li>
                 <li class="navigation__item"><a href="#" class="navigation__link">Nyheder</a></li>
                 <li class="navigation__item"><a href="#" class="navigation__link">Kontakt</a></li>
             </ul>
-            <input placeholder="søg" class="navigation__search" type="text">
+            <input placeholder="Søg" class="navigation__search" type="text">
         </nav>
+    </div>
     </div>
         <div class="headline-wrapper">
             <div class="headline">
@@ -102,8 +110,8 @@
                     <div class="button-wrapper"><a class="button" href="">Tilmeld</a></div>
                 </div>
                 <div class="socials">
-                    <a href="" class="social-link"><img src="./img/icons/facebook.png" alt="facebook logo"></a>
-                    <a href="" class="social-link"><img src="./img/icons/linkedin.png" alt="linkedIn logo"></a>
+                    <a href="https://www.linkedin.com/company/aspit" target="_blank" class="social-link"><img src="./img/icons/facebook.png" alt="facebook logo"></a>
+                    <a href="https://www.linkedin.com/company/aspit" target="_blank" class="social-link"><img src="./img/icons/linkedin.png" alt="linkedIn logo"></a>
                 </div>
                 <div class="news-link">
                     <a href="" class="news-grid__link">se mere >></a>
@@ -118,7 +126,7 @@
                         <input placeholder="Navn" class="input-form__input" type="text">
                         <input placeholder="Email" class="input-form__input" type="text">
                         <textarea class="input-form__message" placeholder="Besked" rows="8" cols="50"></textarea>
-                        <div class="button-wrapper"><a class="button" href="">Tilmeld</a></div>
+                        <div class="button-wrapper"><a class="button" href="#kontakt">Tilmeld</a></div>
                     </div>
             <div class="contact-image">
                 <img src="./img/kort.png" alt="kort over aspits afdelinger">
@@ -140,7 +148,7 @@
     </main>
     <footer class="site-footer">
         <p class="paragraph">
-            copyright 2019 - ligebanan
+            copyright 2019 - <a href="https://github.com/klementj" target="_blank">ligebanan</a>
         </p>
     </footer>
     <script>
