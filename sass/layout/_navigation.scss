@@ -47,6 +47,24 @@
         text-decoration: none;
         color: $color-lightgray;
         white-space: nowrap;
+        &::after {
+            content: "";
+            display: block;
+            height: .1rem;
+            opacity: 0;
+            background-color: $color-lightgray;
+            margin-top: .1rem;
+            transform: translateY(1rem);
+            transition: all .3s;
+        }
+
+        &:hover,
+        &:focus {
+            &::after {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
     }
 }
 
