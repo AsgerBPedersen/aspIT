@@ -9,25 +9,51 @@
         resize: none;
         padding: 1rem;
         font-family: 'Open Sans', sans-serif;
+        max-width: 35rem;
+        margin-bottom: 2rem;
     }
 
     &__input {
         padding: 1rem;
         font-family: 'Open Sans', sans-serif;
         height: 4rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
+        max-width: 35rem;
     }
 
     .heading-secondary {
         color: $color-lightgray;
-        margin: 3rem 0;
+        margin: 2rem 0;
     }
     .heading-tertiary {
         color: $color-lightgray;
-        margin: 3rem 0;
+        margin: 2rem 0;
     }
     .paragraph {
         color: $color-lightgray;
-        margin-bottom: 3rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 1000px) {
+    .input-form {
+        align-items: center;
+
+        &__input {
+            width: 35rem;
+        }
+    }
+}
+
+@media (max-width: 550px) {
+    .input-form {
+        &__input {
+            width: 25rem;
+        }
+
+        &__message {
+            
+            width: 25rem;
+        }
     }
 }
