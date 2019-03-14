@@ -33,11 +33,34 @@
 }
 
 .headline {
-    width: 40vw;
+    width: 50vw;
     .heading-primary {
         margin-bottom: 3rem;
     }
     .paragraph {
         margin-bottom: 3rem;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-topwrapper {
+        flex-direction: column;
+        .logo-box {
+            margin: 2rem 0;
+        }
+    }
+
+    .headline {
+        width: 80vw;
+        .heading-primary {
+            margin-bottom: 2rem;
+        }
+        .paragraph {
+            margin-bottom: 2rem;
+        }
+    }
+
+    .site-header {
+        height: 70rem;
     }
 }
